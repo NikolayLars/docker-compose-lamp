@@ -1,0 +1,16 @@
+.flex{
+    display: flex;
+    width: 50%;
+    flex-basis: content;
+}
+
+.flex>div{
+    width: auto;width: inherit;
+    text-align: center;
+    line-height: 40px;
+}
+
+.flex:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
